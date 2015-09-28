@@ -84,8 +84,17 @@ public class ws_transporte
     /**
      * Web service operation
      */
-    @WebMethod(operationName = "insertarTransportes")
-    public String insertarTransportes(@WebParam(name = "codigoTransporte") String codigoTransporte, @WebParam(name = "descripcionTransporte") String descripcionTransporte, @WebParam(name = "precioTransporte") String precioTransporte) {
+    @WebMethod(operationName = "insertarTransporte")
+    public String insertarTransporte(@WebParam(name = "codigoTransporte") String codigoTransporte, @WebParam(name = "descripcionTransporte") String descripcionTransporte, @WebParam(name = "precioTransporte") String precioTransporte) {
+        //TODO write your implementation code here:
+        return null;
+    }
+
+    /**
+     * Web service operation
+     */
+    @WebMethod(operationName = "borrarTransporte")
+    public String borrarTransporte(@WebParam(name = "codigoTransporte") String codigoTransporte) {
         //TODO write your implementation code here:
         return null;
     }
